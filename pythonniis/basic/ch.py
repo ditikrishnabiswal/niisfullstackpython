@@ -1,5 +1,4 @@
-50. # ASCLL to character
-print("enter ascii value")
-n=int(input())
-ch=chr(n)
-print("character=",ch)
+a=10
+b=20
+c=a+b
+print(c)
