@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+.container {
+    width: 420px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none;
+}
+
+.options {
+    margin-bottom: 15px;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background: #28a745;
+    color: white;
+}
+
+input[type="reset"] {
+    background: #dc3545;
+    color: white;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h2>Registration Form</h2>
+
+<form action="#" method="post">
+
+<label>Name</label>
+<input type="text" name="t1">
+
+<label>Address</label>
+<textarea rows="3" cols="40" name="t2"></textarea>
+
+<label>Password</label>
+<input type="password" name="t3">
+
+<label>Country</label>
+<select name="s1">
+<option value="india">India</option>
+<option value="pak">Pakistan</option>
+<option value="ban">Bangladesh</option>
+<option value="slr">Sri Lanka</option>
+</select>
+
+<label>Hobby</label>
+<div class="options">
+<input type="checkbox" name="c1" value="play"> Play
+<input type="checkbox" name="c1" value="sing"> Sing
+<input type="checkbox" name="c1" value="mobileuse"> Mobile Use
+</div>
+
+<label>Gender</label>
+<div class="options">
+<input type="radio" name="r1" value="male"> Male
+<input type="radio" name="r1" value="female"> Female
+</div>
+
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+
+</form>
+</div>
+
+</body>
+</html>

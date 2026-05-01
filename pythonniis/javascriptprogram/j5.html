@@ -1,0 +1,22 @@
+<html>
+<body> 
+
+<h3>Even or odd</h3> 
+<input type="number" id="num">
+<button onclick="check()">check</button>
+
+<p id="res"></p> 
+
+<script>
+	function check() {
+		let n = Number(document.getElementById("num").value);
+		if(n%2==0) {
+			(document.getElementById("res").innerHTML= "Even Numbner";
+		 } else {
+		 	document.getElementById("res").innerHTML= "odd Numbner";
+		}
+	}
+		 
+</script>
+</body>
+</html>
